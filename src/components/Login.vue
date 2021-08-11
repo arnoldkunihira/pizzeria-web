@@ -45,11 +45,6 @@
                         <label for="floatingPassword">Password</label>
                     </div>
                 
-                    <div class="checkbox mb-3">
-                        <label>
-                            <input type="checkbox" value="remember-me"> Remember me
-                        </label>
-                    </div>
                     <button class="w-100 btn btn-lg btn-primary" type="submit" :disabled="submitting">
                         <span v-if="submitting" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> &nbsp;
                         <span class="visually-hidden">Loading...</span>
